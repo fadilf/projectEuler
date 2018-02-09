@@ -13,7 +13,6 @@ while i < 2*10**6:
 			break
 		if i%j != 0 and j == i-1:
 			primes += 1
-#			print i
 			sum += i
 
 print "Sum of primes:"

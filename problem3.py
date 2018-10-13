@@ -5,11 +5,13 @@
 number = 600851475143
 
 hpf = 1
-i = 1
+i = 2
 while number !=1:
 	if number%i == 0:
 		hpf = i
 		number /= i
-	i += 1
+		print hpf
+	else:
+		i += 1
 
 print hpf
